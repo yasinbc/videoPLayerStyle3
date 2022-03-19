@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Reproductor de video</title>
+		<meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+		<link rel="stylesheet" href="reproductor.css">
+		<script type="text/javascript" src="reproductor.js"></script>
+	</head>
+	<body>
+
+		<section id="reproductor">
+			<video id="medio" width="720" height="400" controls muted poster="starry-sky.png" preload>
+				<source src="cordones automaticos.mp4">
+				<source src="cordones automaticos.ogg">
+			</video>
+
+			<nav>
+				<div id="botones">
+					<button type="button" id="reproducir">Reproducir</button>
+				</div>
+
+				<div id="barra">
+					<div id="progreso"></div>
+				</div>
+				
+				<div style="clear: both"></div>
+			</nav>
+
+		</section>
+	</body>
